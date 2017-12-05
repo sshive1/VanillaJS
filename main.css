@@ -1,26 +1,32 @@
-/*
-* {
-	border: 1px dashed red;
-}
-*/
+/** {
+	border: 1px dashed white;
+}*/
 
 body {
 	font-family: Georgia, serif;
 	height: 100%;
 	margin: 0;
 	text-align: center;
-	width: 100%;
+}
+
+html {
+	background: url(images/computers.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 h1 {
   font-family: 'Sans', sans-serif;
-	font-size: 32px;
-	color: aqua;
-}
-
-h2 {
-	color: aqua;
-	font-size: 56px;
+	font-size: 48px;
+	color: #FF0000;
+	text-align: center;
+	position: fixed;
+	top: 100px;
+	right: 50%;
+	margin-right: -250px;
+	width: 500px;
 }
 
 ul {
@@ -29,9 +35,21 @@ ul {
 	margin: 0;
 }
 
+.container {
+	height: 100%;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+
+/*NAVIGATION BAR STARTS HERE*/
 #nav-items {
-	background-color: rgba(500, 500, 500, .5);
-	height: 84px;
+	background-color: rgba(300, 300, 300, .5);
+	height: 60px;
+	position: fixed;
+	top: 10px;
+	left: 20px;
 }
 
 .table {
@@ -43,38 +61,19 @@ ul {
 ul#horizontal-list {
 	min-width: 696px;
 	list-style: none;
-	padding-top: 20px;
+	padding-top: 10px;
 	}
 	ul#horizontal-list li {
 		display: inline;
 		font-size: 30px;
-		padding: 0px 30px 0px 30px;
 		font-family: 'Sans', sans-serif;
 	}
-	ul#horizontal-list a { text-decoration: none; color: aqua; }
-	ul#horizontal-list a:hover { background-color: rgba(100, 200, 500, .5); color: black; }
+	ul#horizontal-list a { text-decoration: none; color: Red; padding: 11px 26px 14px 26px; }
+	ul#horizontal-list a:hover { background-color: rgba(500, 500, 500, .75); color: black; }
 	ul#horizontal-list a:active { background-color: #4CAF50; color: white; }
-	ul#horizontal-list a:visited { text-decoration: none; color: aqua; }
-/*
-#nav-items a {
-	float: center;
-	color: rgb();
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-*/
+	ul#horizontal-list a:visited { text-decoration: none; color: Red; }
+/*NAVIGATION BAR END*/
 
-
-.container {
-	background-image: url('images/computers.jpg');
-	background-position: center top;
-	background-size: cover;
-	padding: 250px 0;
-	margin: 30px;
-	text-shadow: 0 2px #000000;
-	font-family: 'Trebuchet MS', 'Helvetica';
-}
 
 p {
 	color: #ffffff;
