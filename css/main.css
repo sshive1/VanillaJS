@@ -1,6 +1,3 @@
-/** {
-	border: 1px dashed white;
-}*/
 
 body {
 	font-family: Georgia, serif;
@@ -10,7 +7,7 @@ body {
 }
 
 html {
-	background: url(images/computers.jpg) no-repeat center center fixed;
+	background: url(../images/computers.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -20,7 +17,7 @@ html {
 h1 {
   font-family: 'Sans', sans-serif;
 	font-size: 48px;
-	color: #FF0000;
+	color: #FFF;
 	text-align: center;
 	position: fixed;
 	top: 100px;
@@ -45,7 +42,7 @@ ul {
 
 /*NAVIGATION BAR STARTS HERE*/
 #nav-items {
-	background-color: rgba(300, 300, 300, .5);
+	background-color: rgba(255, 255, 255, .5);
 	height: 60px;
 	position: fixed;
 	top: 10px;
@@ -68,10 +65,10 @@ ul#horizontal-list {
 		font-size: 30px;
 		font-family: 'Sans', sans-serif;
 	}
-	ul#horizontal-list a { text-decoration: none; color: Red; padding: 11px 26px 14px 26px; }
-	ul#horizontal-list a:hover { background-color: rgba(500, 500, 500, .75); color: black; }
+	ul#horizontal-list a { text-decoration: none; color: white; padding: 11px 26px 14px 26px; }
+	ul#horizontal-list a:hover { background-color: rgba(255, 255, 255, .75); color: black; }
 	ul#horizontal-list a:active { background-color: #4CAF50; color: white; }
-	ul#horizontal-list a:visited { text-decoration: none; color: Red; }
+	ul#horizontal-list a:visited { text-decoration: none; color: white; }
 /*NAVIGATION BAR END*/
 
 
