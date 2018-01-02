@@ -25,12 +25,33 @@
       <div class="general_form">
         <div class="general_form_head">Enter Workstation Information</div>
           <form action="" method="post">
-              <label for="station"><span>Station: <span class="required">*</span></span></label>
-              <input type="text" class="input_field" id="station" name="station_id"/>
-              <label for="type"><span>Type: <span class="required">*</span></span></label>
-              <input type="text" class="input_field" id="type" name="wks_type"/>
+              <label for="wks_name"><span>Computer Name: <span class="required">*</span></span></label>
+              <input type="text" class="input_field" id="wks_name" name="computer_id"/>
+
+              <label for="manufacturer"><span>Manufacturer: <span class="required">*</span></span></label>
+              <input type="text" class="input_field" id="manufacturer" name="wks_manufacturer"/>
+
+              <label for="model"><span>Model Number: <span class="required">*</span></span></label>
+              <input type="text" class="input_field" id="model" name="wks_model"/>
+
+              <label for="os"><span>Operating System: <span class="required">*</span></span></label>
+              <input type="text" class="input_field" id="os" name="wks_os"/>
+
               <label for="expiration"><span>Expiration Date: <span class="required">*</span></span></label>
               <input type="date" class="input_field" id="expiration" name="wks_expiration"/>
+
+              <label for="users"><span>Authorized Users: <span class="required">*</span></span></label>
+              <input type="text" class="input_field" id="users" name="wks_users"/>
+
+              <label for="software"><span>Installed Software: <span class="required">*</span></span></label>
+              <input type="text" class="input_field" id="software" name="wks_software"/>
+
+              <label for="installed"><span>Installation Date: <span class="required">*</span></span></label>
+              <input type="date" class="input_field" id="installed" name="wks_installed"/>
+
+              <label for="teamview"><span>Teamviewer ID: <span class="required">*</span></span></label>
+              <input type="text" class="input_field" id="teamview" name="wks_teamview"/>
+
               <label><span>&nbsp;</span><input type="submit" value="Submit" /></label>
           </form>
       </div>

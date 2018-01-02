@@ -16,10 +16,11 @@
 }
 .general_form label{
     display: block;
-    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+    margin: 20px 0px 15px 0px;
 }
 .general_form label > span{
-    width: 100px;
+    width: 200px;
     font-weight: bold;
     float: left;
     padding-top: 8px;
