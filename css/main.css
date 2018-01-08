@@ -65,10 +65,10 @@ ul#horizontal-list {
 		font-size: 30px;
 		font-family: 'Sans', sans-serif;
 	}
-	ul#horizontal-list a { text-decoration: none; color: white; padding: 11px 26px 14px 26px; }
-	ul#horizontal-list a:hover { background-color: rgba(255, 255, 255, .75); color: black; }
-	ul#horizontal-list a:active { background-color: #4CAF50; color: white; }
-	ul#horizontal-list a:visited { text-decoration: none; color: white; }
+	ul#horizontal-list a { text-decoration: none; color: #fff; padding: 11px 26px 14px 26px; }
+	ul#horizontal-list a:active { background-color: #4CAF50; color: #fff; }
+	ul#horizontal-list a:visited { text-decoration: none; color: #fff; }
+	ul#horizontal-list a:hover { text-decoration: none; background-color: rgba(255, 255, 255, .75); color: #000; }
 /*NAVIGATION BAR END*/
 
 
